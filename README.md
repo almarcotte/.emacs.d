@@ -29,11 +29,12 @@ and cloning it into `site-lisp`.
 * Having issues with Powerline on a Chromebook through Crouton -- might be more of a Crouton issue
 
 ### Some Keybinds
-Bind      | Action
-----------|-------------
-`C-c u`   | Move current line/region up one line (move-text-up)
-`C-c d`   | Move current line/region down one line (move-text-down)
-`C-@`     | Expand selection (er/expand-region)
+Bind        | Action
+------------|-------------
+`C-c u`     | Move current line/region up one line (move-text-up)
+`C-c d`     | Move current line/region down one line (move-text-down)
+`C-@`       | Expand selection (er/expand-region)
+`C-c C-SPC` | ace-jump-mode. Enter a character to highlight possible jump locations
 
 ### Interesting snippets
 Tag     | Mode     | Description

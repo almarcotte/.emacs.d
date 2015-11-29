@@ -48,6 +48,7 @@
 	settings-snippets
 	settings-helm
 	settings-markdown
+	settings-jump
 	))
 
 ;; Load everything
