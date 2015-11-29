@@ -25,3 +25,15 @@ and cloning it into `site-lisp`.
 * Flycheck is not playing nicely with Clojure
 * Powerline / mode-line needs work
 * Having issues with Powerline on a Chromebook through Crouton -- might be more of a Crouton issue
+
+### Some Keybinds
+Bind      | Action
+----------|-------------
+`C-c u`   | Move current line/region up one line (move-text-up)
+`C-c d`   | Move current line/region down one line (move-text-down)
+`C-@`     | Expand selection (er/expand-region)
+
+### Interesting snippets
+Tag     | Mode     | Description
+--------|----------|--------------
+project | clojure  | Basic project.clj
