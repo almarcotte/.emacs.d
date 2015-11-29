@@ -36,6 +36,7 @@
 (setq settings-files
       '(
 	settings-interface
+	settings-variables
 	settings-parens
 	settings-clojure
 	settings-flycheck
@@ -44,6 +45,7 @@
 	settings-powerline
 	settings-theme
 	settings-editor
+	settings-snippets
 	))
 
 ;; Load everything
