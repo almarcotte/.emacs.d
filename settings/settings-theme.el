@@ -18,16 +18,9 @@
 
   (set-face-background 'region "#374186")
   (set-face-background 'fringe "#191919")
-  (set-face-attribute 'linum nil :background nil :height 0.7)
   (set-face-foreground 'which-func "#cccccc")
 
-  (set-face-attribute 'mode-line nil
-		      :family "Helvetica Neue LT Std"
-		      :width 'condensed)
-  (set-face-attribute 'mode-line-inactive nil
-		      :family "Helvetica Neue LT Std"
-		      :width 'condensed)
-
+  ;; Company related settings
   (set-face-foreground 'company-tooltip "#000")
   (set-face-background 'company-tooltip "#ddd")
   (set-face-background 'company-scrollbar-bg "#fff")
@@ -37,6 +30,7 @@
   (set-face-foreground 'company-tooltip-common-selection "#9a0000")
   (set-face-foreground 'company-tooltip-annotation "#00008e")
 
+  ;; Terms / multi-terms
   (set-face-foreground 'term-color-black "#3f3f3f")
   (set-face-foreground 'term-color-red "#cc9393")
   (set-face-foreground 'term-color-green "#7f9f7f")
