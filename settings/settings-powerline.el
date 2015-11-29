@@ -8,7 +8,8 @@
 (use-package powerline
   :ensure t
   :config
-  (powerline-default-theme))
+  (powerline-default-theme)
+  )
 
 (provide 'settings-powerline)
 ;;; settings-powerline.el ends here

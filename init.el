@@ -43,6 +43,7 @@
 	settings-terms
 	settings-powerline
 	settings-theme
+	settings-editor
 	))
 
 ;; Load everything
@@ -51,3 +52,17 @@
 
 (provide 'init)
 ;;; init.el ends here
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("8c75217782ccea7e9f3ad2dae831487a5fb636d042263d0a0e0438d551da3224" "870a63a25a2756074e53e5ee28f3f890332ddc21f9e87d583c5387285e882099" "e87a2bd5abc8448f8676365692e908b709b93f2d3869c42a4371223aab7d9cf8" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
