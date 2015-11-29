@@ -47,6 +47,7 @@
 	settings-editor
 	settings-snippets
 	settings-helm
+	settings-markdown
 	))
 
 ;; Load everything
