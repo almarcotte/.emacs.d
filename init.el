@@ -46,6 +46,7 @@
 	settings-theme
 	settings-editor
 	settings-snippets
+	settings-helm
 	))
 
 ;; Load everything

@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+# name: project
+# key: project
+# --
+(defproject $1 "0.1.0-SNAPSHOT"
+  :description "$2"
+  :url "$3"
+  :license {:name "$4"
+	    :url "$5"}
+  :jvm-opts ["-XX:MaxPermSize=265m"]
+  :main 
+  :dependencies [[org.clojure/clojure "1.7.0"]
+                 $0
+                 ]
+  :profiles {:dev {:plugins [[lein-cljsbuild "1.0.6"]]
+                   :dependencies [[reloaded.repl "0.1.0"]]
+                   :source-paths ["dev"]
+                   }
+             })
+
