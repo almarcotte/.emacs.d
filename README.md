@@ -1,7 +1,9 @@
 # Emacs Settings
 
 Always a work in progress. I don't particularily recommend anyone to use this. It's mostly so I can easily keep
-my environment between multiple computers.
+my environment between multiple computers. 
+
+`git clone --recursive https://github.com/gnumast/.emacs.d.git`
 
 ### General idea
 
